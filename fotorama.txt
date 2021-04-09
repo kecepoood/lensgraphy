@@ -1,0 +1,3 @@
+plugin galeri
+
+https://fotorama.io/docs/

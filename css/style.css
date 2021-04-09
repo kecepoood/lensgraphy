@@ -1,0 +1,363 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #3A3A3A;
+}
+
+header {
+  background-image: url("../images/bg-header.jpg");
+  background-size: cover;
+}
+
+header .header-quote p {
+  color: #fff !important;
+  padding-top: 110px;
+  line-height: 130%;
+  font-size: 55px;
+}
+
+header .header-quote .btn-get-started {
+  background-color: #BE2623;
+  color: #fff !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 110px;
+  font-size: 14px;
+}
+
+header .header-quote .btn-get-started:hover {
+  background-color: #E12724;
+}
+
+.bg-light {
+  background-color: #fff !important;
+  height: 72px;
+}
+
+.nav-item .nav-link {
+  margin-right: 25px;
+}
+
+.nav-item .active {
+  font-weight: 500;
+}
+
+.btn-login {
+  color: #fff !important;
+  background-color: #BE2623;
+  border-radius: 0;
+  max-height: 72px;
+  margin-right: -25px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.btn-login:hover {
+  background-color: #E12724;
+}
+
+.services {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.services p {
+  font-size: 24pt;
+  font-weight: 500;
+}
+
+.services .card {
+  max-width: 370px;
+  background-color: #0E3746;
+  background-size: cover;
+  border-radius: 0;
+  margin-top: 20px;
+}
+
+.services .card p {
+  font-size: 16pt !important;
+  font-weight: 500;
+  color: #fff !important;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.services .card .ic-services img {
+  max-width: 55px;
+  margin-left: 25px;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 20px;
+}
+
+.services .card .ic-services p {
+  font-weight: normal;
+  font-size: 12pt !important;
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-right: 15px;
+}
+
+.bg-profile-photographer {
+  background-color: #BEBEBE;
+  background-size: cover;
+}
+
+.bg-profile-photographer p {
+  font-size: 24pt;
+  font-weight: 500;
+  padding-top: 35px;
+}
+
+.bg-profile-photographer .card {
+  max-width: 320px;
+  background-color: #fff;
+  background-size: cover;
+  border-radius: 0;
+  margin-top: 20px;
+  margin-bottom: 55px;
+  -webkit-box-shadow: 0px 0px 10px #3A3A3A;
+          box-shadow: 0px 0px 10px #3A3A3A;
+}
+
+.bg-profile-photographer .card img {
+  max-width: 150px;
+  margin-top: 45px;
+}
+
+.bg-profile-photographer .card h5 {
+  font-size: 16pt !important;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.bg-profile-photographer .card p {
+  font-weight: normal;
+  font-size: 12pt !important;
+  padding-top: 0px;
+  margin-bottom: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.bg-header-silver {
+  background-color: #BEBEBE;
+  background-size: cover;
+  height: 550px;
+}
+
+.bg-header-silver h3 {
+  margin-top: 80px;
+}
+
+.bg-header-silver p {
+  padding-bottom: 20px;
+}
+
+.bg-header-blue {
+  background-color: #0E3746;
+  background-size: cover;
+  height: 550px;
+  color: #fff !important;
+}
+
+.bg-header-blue h3 {
+  margin-top: 80px;
+  font-size: 24pt;
+  margin-bottom: 15px;
+}
+
+.bg-header-blue p {
+  font-weight: 400;
+  font-size: 16pt;
+}
+
+.location-card {
+  margin-top: -250px;
+}
+
+.location-card .card {
+  background-color: #fff !important;
+  background-size: cover;
+  border-radius: 0;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  -webkit-box-shadow: 0px 0px 10px #3A3A3A;
+          box-shadow: 0px 0px 10px #3A3A3A;
+  margin-bottom: 20px;
+}
+
+.location-card .card h3 {
+  margin-top: 20px;
+  font-size: 16pt;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.location-card .card p {
+  font-weight: 400;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.location-card .card .star {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+.location-card .card .star img {
+  margin-right: 3px;
+  float: left;
+}
+
+.location-card .card .btn-details {
+  color: #fff !important;
+  background-color: #BE2623;
+  max-width: 150px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.location-card .card .btn-details:hover {
+  background-color: #E12724;
+}
+
+.location-card .page {
+  margin-top: 25px;
+}
+
+.location-card .page a {
+  text-decoration: none;
+  color: #0E3746;
+  font-size: 16pt;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.location-card .page .active {
+  color: #BE2623;
+  font-size: 18pt;
+}
+
+.main-detail {
+  margin-top: -220px;
+}
+
+.main-detail .card {
+  background-color: #fff;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.main-detail .card .image {
+  margin-top: 50px;
+}
+
+.main-detail .card h3 {
+  color: #0E3746;
+}
+
+.main-detail .card p {
+  margin-top: 25px;
+}
+
+.main-detail .card .btn-join {
+  max-width: 140px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.space {
+  margin-top: 50px;
+}
+
+.sponsor p {
+  font-size: 24pt;
+  font-weight: 500;
+  padding-top: 35px;
+  margin-bottom: 25px;
+}
+
+.mini-gallery p {
+  font-size: 24pt;
+  font-weight: 500;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-join {
+  background-color: #BE2623;
+  color: #fff !important;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.btn-join:hover {
+  background-color: #E12724;
+}
+
+.btn-help {
+  background-color: #BEBEBE;
+  color: #0E3746 !important;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.btn-help:hover {
+  background-color: #9D9C9C;
+}
+
+.button-center {
+  margin-top: 50px;
+  text-align: center;
+}
+
+footer {
+  background-color: #0E3746;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+footer .footer-text {
+  margin-bottom: 40px;
+}
+
+footer .footer-text h3 {
+  color: #fff !important;
+  font-size: 14pt;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+
+footer .footer-text .nav-link {
+  color: #fff !important;
+}
+
+footer .footer-text p {
+  color: #fff !important;
+}
+
+.end-footer {
+  max-height: 50px;
+}
+
+.end-footer p {
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+/*# sourceMappingURL=style.css.map */
