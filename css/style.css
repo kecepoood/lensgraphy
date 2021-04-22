@@ -295,8 +295,8 @@ header .header-quote .btn-get-started:hover {
   background-color: #0E3746;
   color: #fff;
   text-align: center;
-  height: 300px;
   width: 470px;
+  margin: 7px;
 }
 
 .main-detail .visi h3 {
@@ -315,8 +315,8 @@ header .header-quote .btn-get-started:hover {
   background-color: #0E3746;
   color: #fff;
   text-align: center;
-  height: 300px;
   width: 470px;
+  margin: 7px;
 }
 
 .main-detail .misi h3 {
@@ -333,6 +333,7 @@ header .header-quote .btn-get-started:hover {
 
 .main-detail .misi .a {
   text-align: left;
+  margin-bottom: 20px;
 }
 
 .main-detail .maps {
