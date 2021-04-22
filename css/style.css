@@ -291,6 +291,55 @@ header .header-quote .btn-get-started:hover {
   margin-bottom: 50px;
 }
 
+.main-detail .visi {
+  background-color: #0E3746;
+  color: #fff;
+  text-align: center;
+  height: 300px;
+  width: 470px;
+}
+
+.main-detail .visi h3 {
+  margin-top: 35px;
+  margin-bottom: 45px;
+  color: #fff;
+}
+
+.main-detail .visi p {
+  margin-bottom: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.main-detail .misi {
+  background-color: #0E3746;
+  color: #fff;
+  text-align: center;
+  height: 300px;
+  width: 470px;
+}
+
+.main-detail .misi h3 {
+  margin-top: 35px;
+  margin-bottom: 45px;
+  color: #fff;
+}
+
+.main-detail .misi p {
+  margin-bottom: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.main-detail .misi .a {
+  text-align: left;
+}
+
+.main-detail .maps {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
 .space {
   margin-top: 50px;
 }
